@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry"><rect><x>0</x><y>0</y><width>450</width><height>400</height></rect></property>
+  <property name="windowTitle"><string>Записная книжка</string></property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item><widget class="QLabel" name="label"><property name="text"><string>Имя:</string></property></widget></item>
+   <item><widget class="QLineEdit" name="name_input"/></item>
+   <item><widget class="QLabel" name="label_2"><property name="text"><string>Телефон:</string></property></widget></item>
+   <item><widget class="QLineEdit" name="phone_input"/></item>
+   <item><widget class="QPushButton" name="btn_add"><property name="text"><string>Добавить</string></property></widget></item>
+   <item><widget class="QListWidget" name="list_widget"/></item>
+  </layout>
+ </widget>
+</ui>

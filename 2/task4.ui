@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry"><rect><x>0</x><y>0</y><width>350</width><height>200</height></rect></property>
+  <property name="windowTitle"><string>Игра «Псевдоним»</string></property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item><widget class="QLabel" name="label"><property name="text"><string>Камней для старта:</string></property></widget></item>
+     <item><widget class="QSpinBox" name="start_stones_spin"><property name="minimum"><number>5</number></property><property name="value"><number>20</number></property></widget></item>
+     <item><widget class="QPushButton" name="btn_start"><property name="text"><string>Начать игру</string></property></widget></item>
+    </layout>
+   </item>
+   <item><widget class="QLabel" name="lbl_remaining"><property name="font"><font><pointsize>14</pointsize><weight>75</weight><bold>true</bold></font></property><property name="text"><string>Камней осталось: -</string></property></widget></item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item><widget class="QLabel" name="label_3"><property name="text"><string>Взять (1-3):</string></property></widget></item>
+     <item><widget class="QSpinBox" name="take_spin"><property name="minimum"><number>1</number></property><property name="maximum"><number>3</number></property><property name="enabled"><bool>false</bool></property></widget></item>
+     <item><widget class="QPushButton" name="btn_take"><property name="text"><string>Взять</string></property><property name="enabled"><bool>false</bool></property></widget></item>
+    </layout>
+   </item>
+   <item><widget class="QLabel" name="lbl_log"><property name="text"><string>Нажмите &quot;Начать игру&quot;</string></property></widget></item>
+  </layout>
+ </widget>
+</ui>

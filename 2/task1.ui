@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>550</width><height>300</height></rect>
+  </property>
+  <property name="minimumSize">
+   <size><width>550</width><height>300</height></size>
+  </property>
+  <property name="maximumSize">
+   <size><width>550</width><height>300</height></size>
+  </property>
+  <property name="windowTitle"><string>Текстовый флаг</string></property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QGroupBox" name="groupBox_1">
+       <property name="title"><string>Полоса 1</string></property>
+       <layout class="QVBoxLayout"><item><widget class="QRadioButton" name="rb1_red"><property name="text"><string>Красный</string></property><property name="checked"><bool>true</bool></property></widget></item><item><widget class="QRadioButton" name="rb1_green"><property name="text"><string>Зелёный</string></property></widget></item><item><widget class="QRadioButton" name="rb1_white"><property name="text"><string>Белый</string></property></widget></item></layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="title"><string>Полоса 2</string></property>
+       <layout class="QVBoxLayout"><item><widget class="QRadioButton" name="rb2_red"><property name="text"><string>Красный</string></property><property name="checked"><bool>true</bool></property></widget></item><item><widget class="QRadioButton" name="rb2_green"><property name="text"><string>Зелёный</string></property></widget></item><item><widget class="QRadioButton" name="rb2_white"><property name="text"><string>Белый</string></property></widget></item></layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_3">
+       <property name="title"><string>Полоса 3</string></property>
+       <layout class="QVBoxLayout"><item><widget class="QRadioButton" name="rb3_red"><property name="text"><string>Красный</string></property><property name="checked"><bool>true</bool></property></widget></item><item><widget class="QRadioButton" name="rb3_green"><property name="text"><string>Зелёный</string></property></widget></item><item><widget class="QRadioButton" name="rb3_white"><property name="text"><string>Белый</string></property></widget></item></layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item><widget class="QPushButton" name="btn_draw"><property name="text"><string>Нарисовать</string></property></widget></item>
+   <item><widget class="QLabel" name="result_label"><property name="text"><string>Выберите цвета</string></property></widget></item>
+  </layout>
+ </widget>
+</ui>

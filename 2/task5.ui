@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry"><rect><x>0</x><y>0</y><width>600</width><height>500</height></rect></property>
+  <property name="windowTitle"><string>Антиплагиат</string></property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item><widget class="QLabel" name="label"><property name="text"><string>Порог срабатывания (%):</string></property></widget></item>
+      <item><widget class="QDoubleSpinBox" name="threshold_spin"><property name="value"><double>70.0</double></property></widget></item>
+      <item><spacer><property name="orientation"><enum>Qt::Horizontal</enum></property></spacer></item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item><widget class="QTextEdit" name="text1"><property name="placeholderText"><string>Текст 1...</string></property></widget></item>
+      <item><widget class="QTextEdit" name="text2"><property name="placeholderText"><string>Текст 2...</string></property></widget></item>
+     </layout>
+    </item>
+    <item><widget class="QPushButton" name="btn_check"><property name="text"><string>Рассчитать результат</string></property></widget></item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+</ui>
