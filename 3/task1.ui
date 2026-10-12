@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry"><rect><x>0</x><y>0</y><width>350</width><height>200</height></rect></property>
+  <property name="windowTitle"><string>Статистика из файла</string></property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item><widget class="QPushButton" name="btn_load"><property name="text"><string>Загрузить</string></property></widget></item>
+   <item><widget class="QLabel" name="lbl_max"><property name="text"><string>Максимальное: -</string></property></widget></item>
+   <item><widget class="QLabel" name="lbl_min"><property name="text"><string>Минимальное: -</string></property></widget></item>
+   <item><widget class="QLabel" name="lbl_avg"><property name="text"><string>Среднее: -</string></property></widget></item>
+   <item><widget class="QPushButton" name="btn_save"><property name="text"><string>Сохранить</string></property><property name="enabled"><bool>false</bool></property></widget></item>
+  </layout>
+ </widget>
+</ui>

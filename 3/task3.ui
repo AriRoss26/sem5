@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry"><rect><x>0</x><y>0</y><width>800</width><height>600</height></rect></property>
+  <property name="windowTitle"><string>Фоторедактор</string></property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item><widget class="QRadioButton" name="rb_all"><property name="text"><string>Все каналы</string></property><property name="checked"><bool>true</bool></property></widget></item>
+     <item><widget class="QRadioButton" name="rb_red"><property name="text"><string>Только Красный</string></property></widget></item>
+     <item><widget class="QRadioButton" name="rb_green"><property name="text"><string>Только Зеленый</string></property></widget></item>
+     <item><widget class="QRadioButton" name="rb_blue"><property name="text"><string>Только Синий</string></property></widget></item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item><widget class="QPushButton" name="btn_rot_left"><property name="text"><string>Повернуть влево</string></property></widget></item>
+     <item><widget class="QPushButton" name="btn_rot_right"><property name="text"><string>Повернуть вправо</string></property></widget></item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbl_image">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="alignment"><set>Qt::AlignCenter</set></property>
+     <property name="text"><string>Загрузите изображение...</string></property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+</ui>

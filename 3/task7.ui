@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry"><rect><x>0</x><y>0</y><width>500</width><height>200</height></rect></property>
+  <property name="windowTitle"><string>Фортепиано</string></property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item><widget class="QPushButton" name="btn_do"><property name="sizePolicy"><sizepolicy hsizetype="Minimum" vsizetype="Expanding"><horstretch>0</horstretch><verstretch>0</verstretch></sizepolicy></property><property name="text"><string>До</string></property></widget></item>
+   <item><widget class="QPushButton" name="btn_re"><property name="sizePolicy"><sizepolicy hsizetype="Minimum" vsizetype="Expanding"><horstretch>0</horstretch><verstretch>0</verstretch></sizepolicy></property><property name="text"><string>Ре</string></property></widget></item>
+   <item><widget class="QPushButton" name="btn_mi"><property name="sizePolicy"><sizepolicy hsizetype="Minimum" vsizetype="Expanding"><horstretch>0</horstretch><verstretch>0</verstretch></sizepolicy></property><property name="text"><string>Ми</string></property></widget></item>
+   <item><widget class="QPushButton" name="btn_fa"><property name="sizePolicy"><sizepolicy hsizetype="Minimum" vsizetype="Expanding"><horstretch>0</horstretch><verstretch>0</verstretch></sizepolicy></property><property name="text"><string>Фа</string></property></widget></item>
+  </layout>
+ </widget>
+</ui>

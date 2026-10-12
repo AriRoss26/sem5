@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry"><rect><x>0</x><y>0</y><width>800</width><height>600</height></rect></property>
+  <property name="windowTitle"><string>L-Системы</string></property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item><widget class="QLabel" name="lbl_title"><property name="font"><font><pointsize>14</pointsize><bold>true</bold></font></property><property name="text"><string>Загрузите файл</string></property></widget></item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item><widget class="QLabel" name="label_2"><property name="text"><string>Шаг (Итерация):</string></property></widget></item>
+     <item><widget class="QSlider" name="slider_steps"><property name="maximum"><number>5</number></property><property name="orientation"><enum>Qt::Horizontal</enum></property></widget></item>
+    </layout>
+   </item>
+   <item><widget class="QLabel" name="lbl_canvas"><property name="sizePolicy"><sizepolicy hsizetype="Expanding" vsizetype="Expanding"><horstretch>0</horstretch><verstretch>0</verstretch></sizepolicy></property><property name="text"><string></string></property></widget></item>
+  </layout>
+ </widget>
+</ui>
